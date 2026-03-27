@@ -1,4 +1,3 @@
-
 const CACHE = 'camino-espana-v1';
 const ASSETS = [
   './',
@@ -7,10 +6,10 @@ const ASSETS = [
   './app.js',
   './data.js',
   './manifest.webmanifest',
-  './assets/icon-192.png',
-  './assets/icon-512.png',
-  './assets/screenshot-home.png',
-  './assets/screenshot-lesson.png'
+  './icon-192.png',
+  './icon-512.png',
+  './screenshot-home.png',
+  './screenshot-lesson.png'
 ];
 
 self.addEventListener('install', event => {
