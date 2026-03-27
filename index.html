@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Camino España: app de espanhol para brasileiros que querem viver, trabalhar e se integrar na Espanha.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Camino España">
+  <title>Camino España</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon-192.png">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">Ñ</div>
+          <div>
+            <div class="topbar-title">PWA de espanhol para imigração</div>
+            <div id="topbarTitle">Camino España</div>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <button id="installBtn" class="secondary" hidden>Instalar app</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page" id="app" aria-live="polite"></main>
+
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <button class="nav-item active" data-nav="home">
+        <span class="nav-icon">🏠</span>
+        <span>Início</span>
+      </button>
+      <button class="nav-item" data-nav="map">
+        <span class="nav-icon">🧭</span>
+        <span>Trilha</span>
+      </button>
+      <button class="nav-item" data-nav="review">
+        <span class="nav-icon">🧠</span>
+        <span>Revisão</span>
+      </button>
+      <button class="nav-item" data-nav="library">
+        <span class="nav-icon">📚</span>
+        <span>Frases</span>
+      </button>
+      <button class="nav-item" data-nav="profile">
+        <span class="nav-icon">📈</span>
+        <span>Desempenho</span>
+      </button>
+    </nav>
+  </div>
+
+  <footer class="footer">
+    Camino España · focado em brasileiros indo para a Espanha · offline-first no navegador · <span id="year"></span>
+  </footer>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

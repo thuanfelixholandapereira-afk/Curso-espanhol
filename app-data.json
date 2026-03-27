@@ -1,0 +1,4319 @@
+{
+  "appName": "Camino España",
+  "tagline": "Espanhol para sair do básico e funcionar de verdade na Espanha.",
+  "methodology": {
+    "name": "Método Rota Viva",
+    "pillars": [
+      "Missões da vida real",
+      "Microlições com alta utilidade",
+      "Progressão por domínio",
+      "Revisão inteligente espaçada",
+      "Gramática aplicada ao contexto",
+      "Simulação e produção escrita",
+      "Integração cultural para imigrantes"
+    ]
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Fundamentos de supervivencia",
+      "icon": "🌍",
+      "level": "A1",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Base sólida para começar a falar desde o primeiro dia.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Apresentar-se e quebrar o gelo",
+          "objective": "Saber dizer quem você é, de onde vem e iniciar conversas simples.",
+          "story": "Você chegou à Espanha e precisa se apresentar ao porteiro, ao colega de piso e a uma funcionária do mercado.",
+          "grammar": "Use 'ser' para identidade ('soy brasileño') e 'llamarse' para nome ('me llamo Thuan'). O espanhol da Espanha usa '¿qué tal?' o tempo todo como abertura leve.",
+          "vocab": [
+            [
+              "hola",
+              "oi"
+            ],
+            [
+              "me llamo",
+              "me chamo"
+            ],
+            [
+              "soy de Brasil",
+              "sou do Brasil"
+            ],
+            [
+              "encantado/a",
+              "prazer"
+            ],
+            [
+              "vivo en",
+              "moro em"
+            ]
+          ],
+          "phrases": [
+            "Hola, me llamo Thuan.",
+            "Soy de Brasil y vivo en Mossoró.",
+            "Mucho gusto, encantado.",
+            "Ahora vivo en España."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'Eu me chamo Fernanda' em espanhol?",
+              "options": [
+                "Yo llamo Fernanda",
+                "Me llamo Fernanda",
+                "Soy llamo Fernanda",
+                "Mi llamo Fernanda"
+              ],
+              "answer": 1,
+              "explanation": "A forma correta é 'me llamo'."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual opção soa mais natural ao conhecer alguém?",
+              "options": [
+                "¿Qué tal?",
+                "¿Qué televisión?",
+                "¿Qué documento?",
+                "¿Qué puerta?"
+              ],
+              "answer": 0,
+              "explanation": "'¿Qué tal?' funciona como 'tudo bem?'."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "encantado",
+                  "prazer"
+                ],
+                [
+                  "soy de",
+                  "sou de"
+                ],
+                [
+                  "vivo en",
+                  "moro em"
+                ],
+                [
+                  "hola",
+                  "oi"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ___ llamo Thuan y ___ de Brasil.",
+              "answers": [
+                "me;soy",
+                "me, soy"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva em espanhol uma miniapresentação com nome, país e onde mora ou vai morar."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Números, horários e dados pessoais",
+          "objective": "Dar telefone, entender preços, horários e informações básicas.",
+          "story": "Você precisa informar seu telefone, entender o horário da consulta e confirmar um preço no supermercado.",
+          "grammar": "Para horas use 'Son las...' e 'Es la...' para uma hora. Números aparecem em tudo: endereço, telefone, preços, documentos e transporte.",
+          "vocab": [
+            [
+              "uno a diez",
+              "um a dez"
+            ],
+            [
+              "teléfono",
+              "telefone"
+            ],
+            [
+              "precio",
+              "preço"
+            ],
+            [
+              "hora",
+              "hora"
+            ],
+            [
+              "dirección",
+              "endereço"
+            ]
+          ],
+          "phrases": [
+            "Mi número es el seis ocho...",
+            "La cita es a las nueve y media.",
+            "¿Cuánto cuesta?",
+            "Mi dirección es esta."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar preço?",
+              "options": [
+                "¿Cuánto cuesta?",
+                "¿Cuánto llama?",
+                "¿Cuánto vives?",
+                "¿Cuánto eres?"
+              ],
+              "answer": 0,
+              "explanation": "É a expressão padrão para preço."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual frase indica horário?",
+              "options": [
+                "Mi dirección es esta",
+                "Son las nueve",
+                "Tengo dos bolsas",
+                "Soy brasileño"
+              ],
+              "answer": 1,
+              "explanation": "'Son las nueve' = são nove horas."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "precio",
+                  "preço"
+                ],
+                [
+                  "teléfono",
+                  "telefone"
+                ],
+                [
+                  "hora",
+                  "hora"
+                ],
+                [
+                  "dirección",
+                  "endereço"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: La cita es ___ las diez.",
+              "answers": [
+                "a",
+                "a las"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva seu telefone, um horário e um endereço fictício em espanhol."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Perguntas essenciais do dia a dia",
+          "objective": "Fazer perguntas simples para sobreviver no início.",
+          "story": "No primeiro dia você pergunta onde fica a estação, se aceitam cartão e como chegar ao seu bairro.",
+          "grammar": "Perguntas curtas e úteis vencem a timidez: 'dónde', 'cómo', 'cuánto', 'cuándo'. Em contexto real, clareza vale mais que perfeição.",
+          "vocab": [
+            [
+              "dónde",
+              "onde"
+            ],
+            [
+              "cómo",
+              "como"
+            ],
+            [
+              "cuánto",
+              "quanto"
+            ],
+            [
+              "cuándo",
+              "quando"
+            ],
+            [
+              "tarjeta",
+              "cartão"
+            ]
+          ],
+          "phrases": [
+            "¿Dónde está la estación?",
+            "¿Cómo llego al centro?",
+            "¿Cuánto cuesta el billete?",
+            "¿Aceptan tarjeta?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar 'onde fica o banheiro?'",
+              "options": [
+                "¿Cómo está el baño?",
+                "¿Dónde está el baño?",
+                "¿Cuándo está el baño?",
+                "¿Cuánto está el baño?"
+              ],
+              "answer": 1,
+              "explanation": "'Dónde' pergunta localização."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra introduz pergunta de preço?",
+              "options": [
+                "cómo",
+                "cuánto",
+                "cuándo",
+                "quién"
+              ],
+              "answer": 1,
+              "explanation": "'Cuánto' = quanto."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "dónde",
+                  "onde"
+                ],
+                [
+                  "cómo",
+                  "como"
+                ],
+                [
+                  "cuándo",
+                  "quando"
+                ],
+                [
+                  "tarjeta",
+                  "cartão"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿___ llego al centro?",
+              "answers": [
+                "Cómo",
+                "como"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 3 perguntas que você faria no primeiro dia na Espanha."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Comunicação essencial",
+      "icon": "🗣️",
+      "level": "A1-A2",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Interagir, entender instruções e trocar mensagens.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Pedidos, favores e instruções",
+          "objective": "Pedir ajuda, favores e entender comandos simples.",
+          "story": "Você pede informações ao balconista, entende instruções do metrô e solicita ajuda ao vizinho.",
+          "grammar": "Use 'puedo', 'puede', 'quiero', 'necesito', 'por favor'. A cortesia espanhola costuma ser direta, mas não fria.",
+          "vocab": [
+            [
+              "ayuda",
+              "ajuda"
+            ],
+            [
+              "necesito",
+              "preciso"
+            ],
+            [
+              "puedo",
+              "posso"
+            ],
+            [
+              "por favor",
+              "por favor"
+            ],
+            [
+              "enseñar",
+              "mostrar/ensinar"
+            ]
+          ],
+          "phrases": [
+            "Necesito ayuda con esto.",
+            "¿Puede repetir, por favor?",
+            "¿Me puede enseñar cómo funciona?",
+            "Quiero comprar una tarjeta de transporte."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como pedir repetição educadamente?",
+              "options": [
+                "¿Puede repetir, por favor?",
+                "¿Puede pagar, por favor?",
+                "¿Puede vivir, por favor?",
+                "¿Puede trabajar, por favor?"
+              ],
+              "answer": 0,
+              "explanation": "É a frase útil para não travar na conversa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual verbo expressa necessidade?",
+              "options": [
+                "necesitar",
+                "ser",
+                "tener",
+                "hacer"
+              ],
+              "answer": 0,
+              "explanation": "'Necesito' = preciso."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "ayuda",
+                  "ajuda"
+                ],
+                [
+                  "por favor",
+                  "por favor"
+                ],
+                [
+                  "necesito",
+                  "preciso"
+                ],
+                [
+                  "puedo",
+                  "posso"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ___ ayuda con la app del banco.",
+              "answers": [
+                "Necesito",
+                "necesito"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva um pedido de ajuda em espanhol para um atendente."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Mensagens, ligações e áudio",
+          "objective": "Mandar mensagens simples, entender chamadas e organizar combinações.",
+          "story": "Você combina um horário por WhatsApp, atende uma ligação do proprietário e responde um áudio de trabalho.",
+          "grammar": "Em mensagens reais, espanhol usa muito 'vale', 'perfecto', 'te escribo', 'te llamo'. São blocos de alta frequência.",
+          "vocab": [
+            [
+              "mensaje",
+              "mensagem"
+            ],
+            [
+              "llamada",
+              "ligação"
+            ],
+            [
+              "audio",
+              "áudio"
+            ],
+            [
+              "luego",
+              "depois"
+            ],
+            [
+              "vale",
+              "ok/beleza"
+            ]
+          ],
+          "phrases": [
+            "Te escribo luego.",
+            "Ahora no puedo hablar.",
+            "Vale, perfecto.",
+            "¿Me llamas cuando llegues?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "O que soa natural para confirmar?",
+              "options": [
+                "Vale, perfecto.",
+                "Libro, cerrado.",
+                "Vengo, mañana.",
+                "Tiempo, calle."
+              ],
+              "answer": 0,
+              "explanation": "'Vale' é muito usado na Espanha."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'Agora não posso falar'?",
+              "options": [
+                "Ahora no puedo hablar.",
+                "Ahora no puedo comer.",
+                "Ahora no puedo salir.",
+                "Ahora no puedo pagar."
+              ],
+              "answer": 0,
+              "explanation": "Expressão muito útil em chamadas."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "mensaje",
+                  "mensagem"
+                ],
+                [
+                  "llamada",
+                  "ligação"
+                ],
+                [
+                  "luego",
+                  "depois"
+                ],
+                [
+                  "vale",
+                  "ok"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Te ___ luego por WhatsApp.",
+              "answers": [
+                "escribo",
+                "llamo"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem marcando encontro às 18h em espanhol."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Rotina, tempo e compromissos",
+          "objective": "Falar sobre rotina, disponibilidade e agenda.",
+          "story": "Você explica seus horários de trabalho, marca uma visita e diz quando pode resolver documentos.",
+          "grammar": "Para hábitos, o presente basta: 'trabajo', 'salgo', 'empiezo'. Para disponibilidade, use 'puedo', 'estoy libre', 'tengo cita'.",
+          "vocab": [
+            [
+              "horario",
+              "horário"
+            ],
+            [
+              "mañana",
+              "amanhã/manhã"
+            ],
+            [
+              "tarde",
+              "tarde"
+            ],
+            [
+              "cita",
+              "compromisso"
+            ],
+            [
+              "libre",
+              "livre"
+            ]
+          ],
+          "phrases": [
+            "Trabajo por la mañana.",
+            "Por la tarde estoy libre.",
+            "Tengo una cita mañana.",
+            "¿Te viene bien a las seis?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Qual frase indica disponibilidade?",
+              "options": [
+                "Por la tarde estoy libre.",
+                "Soy de Brasil.",
+                "Necesito agua.",
+                "Voy al metro."
+              ],
+              "answer": 0,
+              "explanation": "É a forma clara de dizer que está livre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'tenho uma consulta amanhã'?",
+              "options": [
+                "Tengo una cita mañana.",
+                "Tengo una casa mañana.",
+                "Tengo una bolsa mañana.",
+                "Tengo una calle mañana."
+              ],
+              "answer": 0,
+              "explanation": "'Cita' cobre consulta/agendamento."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "horario",
+                  "horário"
+                ],
+                [
+                  "tarde",
+                  "tarde"
+                ],
+                [
+                  "cita",
+                  "compromisso"
+                ],
+                [
+                  "libre",
+                  "livre"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿Te viene bien ___ las seis?",
+              "answers": [
+                "a",
+                "sobre"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Descreva sua rotina ideal de segunda a sexta em 3 frases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Moradia e convivência",
+      "icon": "🏠",
+      "level": "A2",
+      "mode": [
+        "vida-real"
+      ],
+      "description": "Encontrar casa, negociar e viver com tranquilidade.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Buscar piso o habitación",
+          "objective": "Entender anúncios e fazer perguntas de aluguel.",
+          "story": "Você vê um anúncio no Idealista e precisa perguntar sobre preço, despesas e localização.",
+          "grammar": "Na Espanha, 'piso' é apartamento. Pergunte cedo sobre 'fianza', 'gastos incluidos', 'contrato' e duração mínima.",
+          "vocab": [
+            [
+              "piso",
+              "apartamento"
+            ],
+            [
+              "habitación",
+              "quarto"
+            ],
+            [
+              "fianza",
+              "caução"
+            ],
+            [
+              "gastos",
+              "despesas"
+            ],
+            [
+              "contrato",
+              "contrato"
+            ]
+          ],
+          "phrases": [
+            "¿Los gastos están incluidos?",
+            "¿Cuánta fianza piden?",
+            "¿Hay contrato?",
+            "¿Está bien comunicado?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'fianza'?",
+              "options": [
+                "comissão",
+                "caução",
+                "multa",
+                "salário"
+              ],
+              "answer": 1,
+              "explanation": "É o depósito/caução do aluguel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar se contas estão inclusas?",
+              "options": [
+                "¿Los gastos están incluidos?",
+                "¿Los gatos están incluidos?",
+                "¿Los datos están incluidos?",
+                "¿Los tratos están incluidos?"
+              ],
+              "answer": 0,
+              "explanation": "Pergunta-chave antes de fechar."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "piso",
+                  "apartamento"
+                ],
+                [
+                  "habitación",
+                  "quarto"
+                ],
+                [
+                  "gastos",
+                  "despesas"
+                ],
+                [
+                  "contrato",
+                  "contrato"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿Cuánta ___ piden para entrar?",
+              "answers": [
+                "fianza"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem perguntando valor, caução e data de entrada."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Falar com proprietário e colegas de piso",
+          "objective": "Negociar regras, visitas e convivência.",
+          "story": "Você combina limpeza da casa, pergunta sobre visitas e avisa que chegará tarde.",
+          "grammar": "Em convivência, o tom importa: seja direto, mas educado. Use 'aviso', 'prefiero', 'normalmente', '¿te importa si...?'.",
+          "vocab": [
+            [
+              "limpieza",
+              "limpeza"
+            ],
+            [
+              "visita",
+              "visita"
+            ],
+            [
+              "ruido",
+              "barulho"
+            ],
+            [
+              "compartir",
+              "compartilhar"
+            ],
+            [
+              "aviso",
+              "aviso"
+            ]
+          ],
+          "phrases": [
+            "¿Te importa si viene un amigo?",
+            "Hoy llegaré tarde.",
+            "Prefiero mantener la cocina limpia.",
+            "Te aviso si hay algún cambio."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar sobre visitas de forma educada?",
+              "options": [
+                "¿Te importa si viene un amigo?",
+                "¿Tú amigo viene porque sí?",
+                "¿Vienes a mi ruido?",
+                "¿Importa cocina amigo?"
+              ],
+              "answer": 0,
+              "explanation": "Fórmula muito útil para convivência."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra se relaciona a barulho?",
+              "options": [
+                "limpieza",
+                "ruido",
+                "visita",
+                "compartir"
+              ],
+              "answer": 1,
+              "explanation": "'Ruido' = barulho."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "limpieza",
+                  "limpeza"
+                ],
+                [
+                  "ruido",
+                  "barulho"
+                ],
+                [
+                  "aviso",
+                  "aviso"
+                ],
+                [
+                  "compartir",
+                  "compartilhar"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Te ___ si llego tarde.",
+              "answers": [
+                "aviso"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem avisando que chegará tarde e pedindo desculpas pelo barulho."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Problemas em casa e manutenção",
+          "objective": "Relatar defeitos e cobrar solução.",
+          "story": "A máquina de lavar não funciona e você precisa avisar o proprietário com clareza.",
+          "grammar": "Para relatar problema: 'no funciona', 'hay una fuga', 'deja de', 'desde ayer'. Acrescente impacto: 'no puedo ducharnos / lavar la ropa'.",
+          "vocab": [
+            [
+              "avería",
+              "defeito/avaria"
+            ],
+            [
+              "fuga",
+              "vazamento"
+            ],
+            [
+              "lavadora",
+              "máquina de lavar"
+            ],
+            [
+              "arreglar",
+              "consertar"
+            ],
+            [
+              "urgente",
+              "urgente"
+            ]
+          ],
+          "phrases": [
+            "La lavadora no funciona.",
+            "Hay una fuga en el baño.",
+            "¿Cuándo lo pueden arreglar?",
+            "Es bastante urgente."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer que há vazamento?",
+              "options": [
+                "Hay una fuga.",
+                "Hay una visita.",
+                "Hay una cocina.",
+                "Hay una fianza."
+              ],
+              "answer": 0,
+              "explanation": "'Fuga' = vazamento."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual frase cobra solução?",
+              "options": [
+                "¿Cuándo lo pueden arreglar?",
+                "¿Cuándo lo pueden alquilar?",
+                "¿Cuándo lo pueden mirar?",
+                "¿Cuándo lo pueden comprar?"
+              ],
+              "answer": 0,
+              "explanation": "Direta e útil para manutenção."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "avería",
+                  "defeito"
+                ],
+                [
+                  "fuga",
+                  "vazamento"
+                ],
+                [
+                  "lavadora",
+                  "máquina de lavar"
+                ],
+                [
+                  "arreglar",
+                  "consertar"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: La ducha no ___ desde ayer.",
+              "answers": [
+                "funciona"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma reclamação curta ao proprietário sobre um problema urgente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Documentação e burocracia",
+      "icon": "🧾",
+      "level": "A2-B1",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Navegar NIE, empadronamiento, bancos e formulários sem travar.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "NIE, empadronamiento y cita previa",
+          "objective": "Lidar com os trâmites mais críticos da chegada.",
+          "story": "Você precisa marcar cita previa, entender documentos exigidos e confirmar endereço do atendimento.",
+          "grammar": "Palavras-chave destravam burocracia: 'solicitud', 'requisito', 'resguardo', 'cita previa', 'documentación'.",
+          "vocab": [
+            [
+              "cita previa",
+              "agendamento prévio"
+            ],
+            [
+              "empadronamiento",
+              "registro municipal"
+            ],
+            [
+              "solicitud",
+              "solicitação"
+            ],
+            [
+              "requisito",
+              "requisito"
+            ],
+            [
+              "resguardo",
+              "comprovante/protocolo"
+            ]
+          ],
+          "phrases": [
+            "Necesito pedir cita previa.",
+            "¿Qué documentación hace falta?",
+            "Traigo el pasaporte y el contrato.",
+            "¿Me dan un resguardo?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Qual expressão é agendamento prévio?",
+              "options": [
+                "cita larga",
+                "cita previa",
+                "visita previa",
+                "hora previa"
+              ],
+              "answer": 1,
+              "explanation": "'Cita previa' é expressão fixa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar quais documentos faltam?",
+              "options": [
+                "¿Qué documentación hace falta?",
+                "¿Qué documento hace piso?",
+                "¿Qué documentación quiere hablar?",
+                "¿Qué falta conmigo?"
+              ],
+              "answer": 0,
+              "explanation": "Frase perfeita para balcão."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "solicitud",
+                  "solicitação"
+                ],
+                [
+                  "requisito",
+                  "requisito"
+                ],
+                [
+                  "resguardo",
+                  "protocolo"
+                ],
+                [
+                  "empadronamiento",
+                  "registro municipal"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Necesito pedir ___ previa para extranjería.",
+              "answers": [
+                "cita"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva o que você levaria para um atendimento de documentação."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Banco, conta e comprovantes",
+          "objective": "Abrir conta, entender cobranças e falar com o banco.",
+          "story": "Você vai ao banco abrir conta, perguntar tarifas e confirmar comprovante de residência.",
+          "grammar": "No banco, clareza e precisão importam. Use 'abrir una cuenta', 'comisión', 'ingreso', 'transferencia', 'justificante'.",
+          "vocab": [
+            [
+              "cuenta",
+              "conta"
+            ],
+            [
+              "comisión",
+              "tarifa"
+            ],
+            [
+              "transferencia",
+              "transferência"
+            ],
+            [
+              "ingreso",
+              "depósito/entrada"
+            ],
+            [
+              "justificante",
+              "comprovante"
+            ]
+          ],
+          "phrases": [
+            "Quiero abrir una cuenta.",
+            "¿Tiene comisión de mantenimiento?",
+            "Necesito un justificante.",
+            "He recibido una transferencia."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'quero abrir uma conta'?",
+              "options": [
+                "Quiero abrir una cuenta.",
+                "Quiero hablar una cuenta.",
+                "Quiero tomar una cuenta.",
+                "Quiero mirar una cuenta."
+              ],
+              "answer": 0,
+              "explanation": "Estrutura padrão em banco."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Justificante' significa:",
+              "options": [
+                "justificativa emocional",
+                "comprovante",
+                "assinatura",
+                "cartão"
+              ],
+              "answer": 1,
+              "explanation": "Palavra muito frequente em burocracia."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "cuenta",
+                  "conta"
+                ],
+                [
+                  "comisión",
+                  "tarifa"
+                ],
+                [
+                  "ingreso",
+                  "depósito"
+                ],
+                [
+                  "justificante",
+                  "comprovante"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿Tiene ___ de mantenimiento?",
+              "answers": [
+                "comisión"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 2 perguntas que faria ao gerente do banco."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Formulários e atendimento online",
+          "objective": "Preencher campos, entender instruções e evitar erros.",
+          "story": "Você entra num portal oficial e precisa entender senha, anexos e dados obrigatórios.",
+          "grammar": "No digital, vocabulário salva tempo: 'adjuntar', 'rellenar', 'caduca', 'obligatorio', 'descargar'.",
+          "vocab": [
+            [
+              "adjuntar",
+              "anexar"
+            ],
+            [
+              "rellenar",
+              "preencher"
+            ],
+            [
+              "caduca",
+              "vence"
+            ],
+            [
+              "obligatorio",
+              "obrigatório"
+            ],
+            [
+              "descargar",
+              "baixar"
+            ]
+          ],
+          "phrases": [
+            "Tengo que adjuntar el pasaporte.",
+            "Este campo es obligatorio.",
+            "La contraseña ha caducado.",
+            "¿Dónde puedo descargar el formulario?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'adjuntar'?",
+              "options": [
+                "anexar",
+                "agendar",
+                "assinar",
+                "aceitar"
+              ],
+              "answer": 0,
+              "explanation": "Verbo típico de formulários."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'este campo é obrigatório'?",
+              "options": [
+                "Este campo es obligatorio.",
+                "Este campo es limitado.",
+                "Este campo es gratuito.",
+                "Este campo es vacío."
+              ],
+              "answer": 0,
+              "explanation": "Útil em praticamente todo cadastro."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "rellenar",
+                  "preencher"
+                ],
+                [
+                  "caduca",
+                  "vence"
+                ],
+                [
+                  "descargar",
+                  "baixar"
+                ],
+                [
+                  "obligatorio",
+                  "obrigatório"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Tengo que ___ el formulario antes de enviarlo.",
+              "answers": [
+                "rellenar"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma dúvida curta sobre um formulário online."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Trabalho e carreira",
+      "icon": "💼",
+      "level": "A2-B1",
+      "mode": [
+        "trabalho"
+      ],
+      "description": "Entrar no mercado, passar em entrevista e se integrar no trabalho.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Currículum, vagas e candidatura",
+          "objective": "Entender vagas e falar do seu perfil profissional.",
+          "story": "Você lê uma vaga, adapta o currículo e escreve uma candidatura curta.",
+          "grammar": "Para perfil profissional, use verbos de experiência: 'tengo experiencia', 'he trabajado', 'sé usar', 'me adapto rápido'.",
+          "vocab": [
+            [
+              "oferta",
+              "vaga/oferta"
+            ],
+            [
+              "experiencia",
+              "experiência"
+            ],
+            [
+              "turno",
+              "turno"
+            ],
+            [
+              "jornada",
+              "carga horária"
+            ],
+            [
+              "candidatura",
+              "candidatura"
+            ]
+          ],
+          "phrases": [
+            "Tengo experiencia en logística.",
+            "He trabajado con compras y proveedores.",
+            "Me interesa esta oferta.",
+            "¿Cuál es la jornada?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'tenho experiência em logística'?",
+              "options": [
+                "Tengo experiencia en logística.",
+                "Estoy experiencia en logística.",
+                "Soy experiencia en logística.",
+                "Hago experiencia en logística."
+              ],
+              "answer": 0,
+              "explanation": "Estrutura padrão para currículo."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra pode indicar carga horária?",
+              "options": [
+                "jornada",
+                "fuga",
+                "fianza",
+                "cita"
+              ],
+              "answer": 0,
+              "explanation": "'Jornada' aparece muito em vagas."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "oferta",
+                  "vaga"
+                ],
+                [
+                  "turno",
+                  "turno"
+                ],
+                [
+                  "jornada",
+                  "carga horária"
+                ],
+                [
+                  "candidatura",
+                  "candidatura"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Me interesa esta ___ de trabajo.",
+              "answers": [
+                "oferta"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 3 linhas se apresentando profissionalmente em espanhol."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Entrevista e condições de trabalho",
+          "objective": "Responder perguntas de entrevista e negociar condições básicas.",
+          "story": "Você participa de uma entrevista e precisa falar de pontos fortes, disponibilidade e salário.",
+          "grammar": "Treine blocos prontos: 'mi punto fuerte es...', 'puedo incorporarme...', 'busco estabilidad', 'estoy abierto a aprender'.",
+          "vocab": [
+            [
+              "fortaleza",
+              "ponto forte"
+            ],
+            [
+              "salario",
+              "salário"
+            ],
+            [
+              "incorporarse",
+              "começar/ingressar"
+            ],
+            [
+              "disponibilidad",
+              "disponibilidade"
+            ],
+            [
+              "aprendizaje",
+              "aprendizado"
+            ]
+          ],
+          "phrases": [
+            "Mi punto fuerte es la organización.",
+            "Puedo incorporarme el lunes.",
+            "Tengo disponibilidad completa.",
+            "Busco estabilidad y crecimiento."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'meu ponto forte é organização'?",
+              "options": [
+                "Mi punto fuerte es la organización.",
+                "Mi punto alto es la organización.",
+                "Mi fuerza es oficina.",
+                "Mi fuerte punto organización."
+              ],
+              "answer": 0,
+              "explanation": "Resposta excelente em entrevista."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual frase indica disponibilidade?",
+              "options": [
+                "Tengo disponibilidad completa.",
+                "Tengo una habitación completa.",
+                "Tengo una bolsa completa.",
+                "Tengo un ruido completo."
+              ],
+              "answer": 0,
+              "explanation": "Direta e clara."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "salario",
+                  "salário"
+                ],
+                [
+                  "fortaleza",
+                  "ponto forte"
+                ],
+                [
+                  "disponibilidad",
+                  "disponibilidade"
+                ],
+                [
+                  "aprendizaje",
+                  "aprendizado"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Puedo ___ el lunes sin problema.",
+              "answers": [
+                "incorporarme"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma resposta curta para: '¿Por qué quieres este trabajo?'"
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Rotina profissional e comunicação interna",
+          "objective": "Falar com chefe, colegas, fornecedores e clientes.",
+          "story": "Você precisa avisar atraso, pedir prioridade e explicar um problema operacional.",
+          "grammar": "No trabalho, seja específico: fato + impacto + pedido. Ex.: 'El pedido llegó tarde y necesitamos reprogramar la entrega'.",
+          "vocab": [
+            [
+              "pedido",
+              "pedido"
+            ],
+            [
+              "proveedor",
+              "fornecedor"
+            ],
+            [
+              "retraso",
+              "atraso"
+            ],
+            [
+              "urgente",
+              "urgente"
+            ],
+            [
+              "prioridad",
+              "prioridade"
+            ]
+          ],
+          "phrases": [
+            "Ha habido un retraso con el pedido.",
+            "Necesitamos priorizar esta tarea.",
+            "Ya hablé con el proveedor.",
+            "Te paso la información por correo."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Qual frase comunica atraso operacional?",
+              "options": [
+                "Ha habido un retraso con el pedido.",
+                "Ha habido una fiesta con el pedido.",
+                "Ha habido una cocina con el pedido.",
+                "Ha habido una visita con el pedido."
+              ],
+              "answer": 0,
+              "explanation": "Muito útil em contexto real de trabalho."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'já falei com o fornecedor'?",
+              "options": [
+                "Ya hablé con el proveedor.",
+                "Ya viví con el proveedor.",
+                "Ya comí con el proveedor.",
+                "Ya entré con el proveedor."
+              ],
+              "answer": 0,
+              "explanation": "'Hablé' resolve boa parte das interações."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "proveedor",
+                  "fornecedor"
+                ],
+                [
+                  "retraso",
+                  "atraso"
+                ],
+                [
+                  "pedido",
+                  "pedido"
+                ],
+                [
+                  "prioridad",
+                  "prioridade"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Necesitamos ___ esta tarea hoy.",
+              "answers": [
+                "priorizar"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem ao chefe explicando atraso e próximo passo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Transporte e deslocamento",
+      "icon": "🚇",
+      "level": "A2",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Circular pela cidade com autonomia e resolver imprevistos.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "Metro, bus y cercanías",
+          "objective": "Comprar bilhetes, entender linhas e perguntar trajetos.",
+          "story": "Você vai ao centro pela primeira vez e precisa entender conexão, zona e cartão de transporte.",
+          "grammar": "Perguntas úteis: '¿qué línea me lleva...?', '¿dónde hago transbordo?', '¿cuántas zonas son?'.",
+          "vocab": [
+            [
+              "billete",
+              "bilhete"
+            ],
+            [
+              "abono",
+              "passe/assinatura"
+            ],
+            [
+              "línea",
+              "linha"
+            ],
+            [
+              "transbordo",
+              "baldeação"
+            ],
+            [
+              "andén",
+              "plataforma"
+            ]
+          ],
+          "phrases": [
+            "¿Qué línea me lleva al centro?",
+            "¿Dónde hago transbordo?",
+            "Necesito recargar el abono.",
+            "¿Este tren para en Atocha?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar onde fazer baldeação?",
+              "options": [
+                "¿Dónde hago transbordo?",
+                "¿Dónde hago trabajo?",
+                "¿Dónde hago compra?",
+                "¿Dónde hago salida?"
+              ],
+              "answer": 0,
+              "explanation": "'Transbordo' é palavra-chave do transporte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'andén'?",
+              "options": [
+                "catraca",
+                "plataforma",
+                "ônibus",
+                "estação"
+              ],
+              "answer": 1,
+              "explanation": "É a plataforma do trem/metrô."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "billete",
+                  "bilhete"
+                ],
+                [
+                  "abono",
+                  "passe"
+                ],
+                [
+                  "línea",
+                  "linha"
+                ],
+                [
+                  "andén",
+                  "plataforma"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Necesito recargar el ___.",
+              "answers": [
+                "abono"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva como pedir informação para chegar ao centro da cidade."
+            }
+          ]
+        },
+        {
+          "id": "m6l2",
+          "title": "Direções e localização",
+          "objective": "Pedir e entender direções na rua.",
+          "story": "Seu GPS falha e você precisa pedir informação a pedestres e lojistas.",
+          "grammar": "Aprenda blocos espaciais: 'recto', 'girar', 'cruzar', 'al lado de', 'enfrente de', 'a la derecha/izquierda'.",
+          "vocab": [
+            [
+              "recto",
+              "reto"
+            ],
+            [
+              "girar",
+              "virar"
+            ],
+            [
+              "cruzar",
+              "atravessar"
+            ],
+            [
+              "al lado de",
+              "ao lado de"
+            ],
+            [
+              "enfrente de",
+              "em frente de"
+            ]
+          ],
+          "phrases": [
+            "Siga todo recto.",
+            "Gire a la derecha en la próxima calle.",
+            "Está al lado del supermercado.",
+            "Cruce la avenida y siga recto."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'vire à direita'?",
+              "options": [
+                "Gire a la derecha.",
+                "Cruce a la derecha.",
+                "Mire a la derecha.",
+                "Llegue a la derecha."
+              ],
+              "answer": 0,
+              "explanation": "Estrutura padrão de direção."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual expressão significa 'ao lado de'?",
+              "options": [
+                "enfrente de",
+                "al lado de",
+                "debajo de",
+                "entre de"
+              ],
+              "answer": 1,
+              "explanation": "Muito comum ao pedir localização."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "recto",
+                  "reto"
+                ],
+                [
+                  "cruzar",
+                  "atravessar"
+                ],
+                [
+                  "al lado de",
+                  "ao lado de"
+                ],
+                [
+                  "enfrente de",
+                  "em frente de"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Está ___ lado del banco.",
+              "answers": [
+                "al"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva um caminho simples da estação até um mercado."
+            }
+          ]
+        },
+        {
+          "id": "m6l3",
+          "title": "Imprevistos, multas y retrasos",
+          "objective": "Resolver perda do ônibus, atraso e situações com fiscalização.",
+          "story": "Você perdeu o trem, chegou atrasado e precisa se explicar no trabalho.",
+          "grammar": "Explique causa + consequência + solução: 'Perdí el tren', 'hubo una avería', 'voy en camino', 'llegaré en diez minutos'.",
+          "vocab": [
+            [
+              "retraso",
+              "atraso"
+            ],
+            [
+              "avería",
+              "falha"
+            ],
+            [
+              "multa",
+              "multa"
+            ],
+            [
+              "validar",
+              "validar"
+            ],
+            [
+              "camino",
+              "a caminho"
+            ]
+          ],
+          "phrases": [
+            "Hubo una avería en la línea.",
+            "Voy en camino.",
+            "No pude validar la tarjeta.",
+            "Creo que voy a llegar tarde."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'estou a caminho'?",
+              "options": [
+                "Voy en camino.",
+                "Voy en estación.",
+                "Voy en multa.",
+                "Voy en tarjeta."
+              ],
+              "answer": 0,
+              "explanation": "Frase muito usada em deslocamento."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra é multa?",
+              "options": [
+                "multa",
+                "avería",
+                "camino",
+                "validar"
+              ],
+              "answer": 0,
+              "explanation": "É cognato útil."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "retraso",
+                  "atraso"
+                ],
+                [
+                  "avería",
+                  "falha"
+                ],
+                [
+                  "validar",
+                  "validar"
+                ],
+                [
+                  "camino",
+                  "a caminho"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Creo que voy a llegar ___.",
+              "answers": [
+                "tarde"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem avisando que vai se atrasar por causa do transporte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "title": "Saúde e bem-estar",
+      "icon": "🩺",
+      "level": "A2-B1",
+      "mode": [
+        "vida-real"
+      ],
+      "description": "Falar de sintomas, buscar ajuda e entender orientações médicas.",
+      "lessons": [
+        {
+          "id": "m7l1",
+          "title": "Farmacia y síntomas básicos",
+          "objective": "Descrever sintomas simples e comprar remédios.",
+          "story": "Você vai à farmácia com dor de garganta e febre e precisa explicar o problema.",
+          "grammar": "Para sintomas, use 'me duele', 'tengo', 'desde ayer', 'he tomado'. Em saúde, objetividade vale ouro.",
+          "vocab": [
+            [
+              "dolor",
+              "dor"
+            ],
+            [
+              "fiebre",
+              "febre"
+            ],
+            [
+              "garganta",
+              "garganta"
+            ],
+            [
+              "tos",
+              "tosse"
+            ],
+            [
+              "medicamento",
+              "medicamento"
+            ]
+          ],
+          "phrases": [
+            "Me duele la garganta.",
+            "Tengo fiebre desde ayer.",
+            "¿Qué me recomienda?",
+            "Ya he tomado paracetamol."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'estou com febre'?",
+              "options": [
+                "Tengo fiebre.",
+                "Soy fiebre.",
+                "Estoy garganta.",
+                "Hago fiebre."
+              ],
+              "answer": 0,
+              "explanation": "'Tengo fiebre' é a forma natural."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar recomendação ao farmacêutico?",
+              "options": [
+                "¿Qué me recomienda?",
+                "¿Qué me receta tú?",
+                "¿Qué me compras?",
+                "¿Qué me cambias?"
+              ],
+              "answer": 0,
+              "explanation": "Pergunta direta e educada."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "dolor",
+                  "dor"
+                ],
+                [
+                  "fiebre",
+                  "febre"
+                ],
+                [
+                  "garganta",
+                  "garganta"
+                ],
+                [
+                  "tos",
+                  "tosse"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Me ___ la cabeza.",
+              "answers": [
+                "duele"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 2 sintomas e peça ajuda na farmácia."
+            }
+          ]
+        },
+        {
+          "id": "m7l2",
+          "title": "Centro de salud y consulta",
+          "objective": "Entender marcação, sintomas e orientações médicas.",
+          "story": "Você vai a uma consulta e precisa falar desde quando sente dor e o que já tomou.",
+          "grammar": "Estrutura útil: sintoma + duração + intensidade + contexto. Ex.: 'Me duele el pecho desde esta mañana, sobre todo al respirar'.",
+          "vocab": [
+            [
+              "consulta",
+              "consulta"
+            ],
+            [
+              "mareo",
+              "tontura"
+            ],
+            [
+              "receta",
+              "receita"
+            ],
+            [
+              "mejora",
+              "melhora"
+            ],
+            [
+              "empeora",
+              "piora"
+            ]
+          ],
+          "phrases": [
+            "Tengo esta molestia desde hace dos días.",
+            "Me marea un poco.",
+            "¿Me puede dar una receta?",
+            "No mejora con descanso."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'não melhora com descanso'?",
+              "options": [
+                "No mejora con descanso.",
+                "No trabaja con descanso.",
+                "No receta con descanso.",
+                "No consulta con descanso."
+              ],
+              "answer": 0,
+              "explanation": "Útil para explicar persistência."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'mareo'?",
+              "options": [
+                "tosse",
+                "tontura",
+                "vômito",
+                "cura"
+              ],
+              "answer": 1,
+              "explanation": "Palavra muito frequente em saúde."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "receta",
+                  "receita"
+                ],
+                [
+                  "mejora",
+                  "melhora"
+                ],
+                [
+                  "empeora",
+                  "piora"
+                ],
+                [
+                  "consulta",
+                  "consulta"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Tengo dolor desde hace dos ___.",
+              "answers": [
+                "días"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Descreva um sintoma, há quanto tempo e o que já tomou."
+            }
+          ]
+        },
+        {
+          "id": "m7l3",
+          "title": "Urgencias y seguridad",
+          "objective": "Falar com urgência em situações médicas mais sérias.",
+          "story": "Um amigo passa mal e você precisa explicar rapidamente o que acontece.",
+          "grammar": "Em urgência, use frases curtas, sem rodeios: 'no respira bien', 'ha perdido el conocimiento', 'necesitamos ayuda ahora'.",
+          "vocab": [
+            [
+              "urgencias",
+              "emergência/urgência"
+            ],
+            [
+              "respirar",
+              "respirar"
+            ],
+            [
+              "conocimiento",
+              "consciência"
+            ],
+            [
+              "alergia",
+              "alergia"
+            ],
+            [
+              "ambulancia",
+              "ambulância"
+            ]
+          ],
+          "phrases": [
+            "Necesitamos una ambulancia.",
+            "No respira bien.",
+            "Ha perdido el conocimiento.",
+            "Es alérgico a la penicilina."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como pedir ambulância?",
+              "options": [
+                "Necesitamos una ambulancia.",
+                "Necesitamos una receta.",
+                "Necesitamos una habitación.",
+                "Necesitamos una tarjeta."
+              ],
+              "answer": 0,
+              "explanation": "Frase crítica de emergência."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual frase indica perda de consciência?",
+              "options": [
+                "Ha perdido el conocimiento.",
+                "Ha perdido la calle.",
+                "Ha perdido el horario.",
+                "Ha perdido el banco."
+              ],
+              "answer": 0,
+              "explanation": "Muito importante em saúde."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "respirar",
+                  "respirar"
+                ],
+                [
+                  "alergia",
+                  "alergia"
+                ],
+                [
+                  "ambulancia",
+                  "ambulância"
+                ],
+                [
+                  "conocimiento",
+                  "consciência"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: No ___ bien y tiene fiebre alta.",
+              "answers": [
+                "respira"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem curta descrevendo uma emergência médica."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "title": "Mercado, consumo e dinheiro",
+      "icon": "🛒",
+      "level": "A2",
+      "mode": [
+        "vida-real"
+      ],
+      "description": "Comprar bem, entender preços e evitar confusão no consumo diário.",
+      "lessons": [
+        {
+          "id": "m8l1",
+          "title": "Supermercado, padaria e produtos",
+          "objective": "Pedir itens, quantidades e entender ofertas.",
+          "story": "Você vai ao supermercado, à frutaria e à padaria no mesmo dia.",
+          "grammar": "Quantificadores ajudam muito: 'un kilo de', 'medio kilo', 'una barra', 'a granel', 'en oferta'.",
+          "vocab": [
+            [
+              "carrito",
+              "carrinho"
+            ],
+            [
+              "oferta",
+              "oferta"
+            ],
+            [
+              "a granel",
+              "a granel"
+            ],
+            [
+              "barra",
+              "barra/pão"
+            ],
+            [
+              "caducado",
+              "vencido"
+            ]
+          ],
+          "phrases": [
+            "Quiero medio kilo de tomates.",
+            "¿Esto está en oferta?",
+            "¿Dónde está la leche sin lactosa?",
+            "Creo que este producto está caducado."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como pedir meio quilo de tomates?",
+              "options": [
+                "Quiero medio kilo de tomates.",
+                "Quiero medio litro de tomates.",
+                "Quiero una cita de tomates.",
+                "Quiero una barra de tomates."
+              ],
+              "answer": 0,
+              "explanation": "Estrutura natural no mercado."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'caducado'?",
+              "options": [
+                "caro",
+                "vencido",
+                "quebrado",
+                "frio"
+              ],
+              "answer": 1,
+              "explanation": "Muito útil em consumo."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "a granel",
+                  "a granel"
+                ],
+                [
+                  "barra",
+                  "barra/pão"
+                ],
+                [
+                  "oferta",
+                  "oferta"
+                ],
+                [
+                  "caducado",
+                  "vencido"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿Dónde está la leche ___ lactosa?",
+              "answers": [
+                "sin"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma lista curta de compra em espanhol."
+            }
+          ]
+        },
+        {
+          "id": "m8l2",
+          "title": "Preços, devoluções e reclamações",
+          "objective": "Resolver trocas, defeitos e divergência de preço.",
+          "story": "No caixa o preço saiu errado e você quer pedir devolução de um produto com defeito.",
+          "grammar": "Seja firme e educado: 'me han cobrado', 'no coincide', 'quiero devolver', 'venía roto'.",
+          "vocab": [
+            [
+              "devolución",
+              "devolução"
+            ],
+            [
+              "ticket",
+              "cupom/nota"
+            ],
+            [
+              "cobrar",
+              "cobrar"
+            ],
+            [
+              "defecto",
+              "defeito"
+            ],
+            [
+              "cambio",
+              "troca"
+            ]
+          ],
+          "phrases": [
+            "Me han cobrado de más.",
+            "El precio no coincide.",
+            "Quiero devolver este producto.",
+            "Venía con un defecto."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'me cobraram a mais'?",
+              "options": [
+                "Me han cobrado de más.",
+                "Me han comprado de más.",
+                "Me han vivido de más.",
+                "Me han llamado de más."
+              ],
+              "answer": 0,
+              "explanation": "Perfeita para caixa/atendimento."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra é devolução?",
+              "options": [
+                "devolución",
+                "cambio",
+                "ticket",
+                "cobrar"
+              ],
+              "answer": 0,
+              "explanation": "Cognato muito útil."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "ticket",
+                  "cupom"
+                ],
+                [
+                  "defecto",
+                  "defeito"
+                ],
+                [
+                  "cambio",
+                  "troca"
+                ],
+                [
+                  "cobrar",
+                  "cobrar"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: El precio no ___ con la etiqueta.",
+              "answers": [
+                "coincide"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma reclamação de preço errado em espanhol."
+            }
+          ]
+        },
+        {
+          "id": "m8l3",
+          "title": "Contas, pagamentos y gastos",
+          "objective": "Entender contas mensais, recibos e formas de pagamento.",
+          "story": "Você precisa verificar uma conta de luz, dividir gastos da casa e pagar por transferência.",
+          "grammar": "Palavras práticas: 'factura', 'recibo', 'domiciliación', 'vencimiento', 'gastos comunes'.",
+          "vocab": [
+            [
+              "factura",
+              "fatura"
+            ],
+            [
+              "recibo",
+              "recibo"
+            ],
+            [
+              "vencimiento",
+              "vencimento"
+            ],
+            [
+              "domiciliación",
+              "débito automático"
+            ],
+            [
+              "gastos comunes",
+              "despesas comuns"
+            ]
+          ],
+          "phrases": [
+            "¿Cuándo vence la factura?",
+            "Este recibo no me cuadra.",
+            "Prefiero pagar por transferencia.",
+            "Vamos a dividir los gastos comunes."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como perguntar quando vence a fatura?",
+              "options": [
+                "¿Cuándo vence la factura?",
+                "¿Cuándo vive la factura?",
+                "¿Cuándo sale la factura?",
+                "¿Cuándo compra la factura?"
+              ],
+              "answer": 0,
+              "explanation": "Pergunta crítica para organização."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'gastos comunes'?",
+              "options": [
+                "custos da empresa",
+                "despesas compartilhadas",
+                "gastos médicos",
+                "impostos"
+              ],
+              "answer": 1,
+              "explanation": "Muito usado em moradia."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "factura",
+                  "fatura"
+                ],
+                [
+                  "recibo",
+                  "recibo"
+                ],
+                [
+                  "vencimiento",
+                  "vencimento"
+                ],
+                [
+                  "domiciliación",
+                  "débito automático"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Prefiero pagar por ___.",
+              "answers": [
+                "transferencia"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem dividindo as contas da casa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m9",
+      "title": "Relações sociais e integração",
+      "icon": "🤝",
+      "level": "A2-B1",
+      "mode": [
+        "vida-real"
+      ],
+      "description": "Construir relações, navegar informalidade e participar da vida social.",
+      "lessons": [
+        {
+          "id": "m9l1",
+          "title": "Convidar, aceitar e recusar",
+          "objective": "Combinar saídas, aceitar convites e recusar sem soar rude.",
+          "story": "Um colega te chama para tapas depois do trabalho e outro para um aniversário.",
+          "grammar": "Na Espanha, recusar com suavidade ajuda: 'me encantaría, pero...', 'esta vez no puedo', 'quedamos otro día'.",
+          "vocab": [
+            [
+              "quedar",
+              "combinar/encontrar"
+            ],
+            [
+              "plan",
+              "programa/plano"
+            ],
+            [
+              "cumpleaños",
+              "aniversário"
+            ],
+            [
+              "apetecer",
+              "estar a fim"
+            ],
+            [
+              "otra vez",
+              "outra vez"
+            ]
+          ],
+          "phrases": [
+            "¿Te apetece tomar algo?",
+            "Me encantaría, pero hoy no puedo.",
+            "Quedamos otro día.",
+            "Sí, me apunto."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como recusar de forma educada?",
+              "options": [
+                "Me encantaría, pero hoy no puedo.",
+                "No quiero nunca.",
+                "No me hables.",
+                "No me da la gana."
+              ],
+              "answer": 0,
+              "explanation": "Recusa natural e educada."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa '¿Te apetece...?'",
+              "options": [
+                "Você quer/está a fim?",
+                "Você consegue?",
+                "Você vai?",
+                "Você mora?"
+              ],
+              "answer": 0,
+              "explanation": "Muito frequente em convites."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "quedar",
+                  "combinar"
+                ],
+                [
+                  "cumpleaños",
+                  "aniversário"
+                ],
+                [
+                  "apetecer",
+                  "estar a fim"
+                ],
+                [
+                  "plan",
+                  "programa"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Sí, me ___ al plan.",
+              "answers": [
+                "apunto"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem aceitando um convite para tomar café."
+            }
+          ]
+        },
+        {
+          "id": "m9l2",
+          "title": "Conversas leves e amizade",
+          "objective": "Manter small talk e criar conexão sem travar.",
+          "story": "Você conversa com vizinhos, colegas de academia e amigos de amigos.",
+          "grammar": "Assuntos seguros: trabalho, cidade, comida, clima, rotina. Perguntas abertas ajudam: '¿qué tal te va?', '¿desde cuándo...?'.",
+          "vocab": [
+            [
+              "vecino",
+              "vizinho"
+            ],
+            [
+              "barrio",
+              "bairro"
+            ],
+            [
+              "costumbre",
+              "costume"
+            ],
+            [
+              "ambiente",
+              "ambiente"
+            ],
+            [
+              "llevarse bien",
+              "se dar bem"
+            ]
+          ],
+          "phrases": [
+            "¿Qué tal te va por aquí?",
+            "Me estoy adaptando poco a poco.",
+            "Este barrio tiene buen ambiente.",
+            "Nos llevamos bien con los vecinos."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'estou me adaptando aos poucos'?",
+              "options": [
+                "Me estoy adaptando poco a poco.",
+                "Me estoy acabando poco a poco.",
+                "Me estoy llegando poco a poco.",
+                "Me estoy cobrando poco a poco."
+              ],
+              "answer": 0,
+              "explanation": "Ótima frase para imigrantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Barrio' significa:",
+              "options": [
+                "prédio",
+                "bairro",
+                "bar",
+                "mercado"
+              ],
+              "answer": 1,
+              "explanation": "Palavra de alta utilidade."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "vecino",
+                  "vizinho"
+                ],
+                [
+                  "barrio",
+                  "bairro"
+                ],
+                [
+                  "costumbre",
+                  "costume"
+                ],
+                [
+                  "llevarse bien",
+                  "se dar bem"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: ¿Qué tal te ___ por aquí?",
+              "answers": [
+                "va"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 3 frases para conversar com um vizinho novo."
+            }
+          ]
+        },
+        {
+          "id": "m9l3",
+          "title": "Conflitos, limites y assertividade",
+          "objective": "Colocar limites com educação e resolver pequenos atritos.",
+          "story": "Há barulho, atraso e divisão injusta de tarefas na casa ou no trabalho.",
+          "grammar": "Use assertividade limpa: fato + efeito + pedido. Ex.: 'Anoche hubo mucho ruido y no pude descansar. ¿Podemos evitarlo entre semana?'.",
+          "vocab": [
+            [
+              "molestar",
+              "incomodar"
+            ],
+            [
+              "descansar",
+              "descansar"
+            ],
+            [
+              "límite",
+              "limite"
+            ],
+            [
+              "acuerdo",
+              "acordo"
+            ],
+            [
+              "respetar",
+              "respeitar"
+            ]
+          ],
+          "phrases": [
+            "Esto me está molestando un poco.",
+            "Necesito descansar.",
+            "¿Podemos llegar a un acuerdo?",
+            "Me gustaría que se respetara este límite."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'podemos chegar a um acordo?'",
+              "options": [
+                "¿Podemos llegar a un acuerdo?",
+                "¿Podemos llegar a un mercado?",
+                "¿Podemos llegar a un barrio?",
+                "¿Podemos llegar a un ruido?"
+              ],
+              "answer": 0,
+              "explanation": "Excelente para conflitos leves."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual verbo significa respeitar?",
+              "options": [
+                "respetar",
+                "recetar",
+                "rellenar",
+                "respirar"
+              ],
+              "answer": 0,
+              "explanation": "Muito útil em convivência."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "molestar",
+                  "incomodar"
+                ],
+                [
+                  "acuerdo",
+                  "acordo"
+                ],
+                [
+                  "límite",
+                  "limite"
+                ],
+                [
+                  "respetar",
+                  "respeitar"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Me gustaría que se ___ este acuerdo.",
+              "answers": [
+                "respetara",
+                "respete"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem educada reclamando de barulho."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "title": "Emergências e segurança",
+      "icon": "🚨",
+      "level": "B1",
+      "mode": [
+        "vida-real"
+      ],
+      "description": "Responder bem sob pressão em situações críticas.",
+      "lessons": [
+        {
+          "id": "m10l1",
+          "title": "112, polícia y ajuda imediata",
+          "objective": "Pedir ajuda rápida e explicar o problema principal.",
+          "story": "Você precisa ligar para emergência ou explicar um problema à polícia.",
+          "grammar": "Sob pressão, frases curtas ganham. Identifique local + problema + urgência + pessoas envolvidas.",
+          "vocab": [
+            [
+              "emergencia",
+              "emergência"
+            ],
+            [
+              "robo",
+              "roubo"
+            ],
+            [
+              "agresión",
+              "agressão"
+            ],
+            [
+              "ubicación",
+              "localização"
+            ],
+            [
+              "patrulla",
+              "viatura/patrulha"
+            ]
+          ],
+          "phrases": [
+            "Necesito ayuda urgente.",
+            "Ha habido un robo.",
+            "Estoy en esta ubicación.",
+            "¿Pueden enviar una patrulla?"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'houve um roubo'?",
+              "options": [
+                "Ha habido un robo.",
+                "Ha habido un piso.",
+                "Ha habido una receta.",
+                "Ha habido un horario."
+              ],
+              "answer": 0,
+              "explanation": "Direta e funcional."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual palavra é localização?",
+              "options": [
+                "ubicación",
+                "agresión",
+                "patrulla",
+                "emergencia"
+              ],
+              "answer": 0,
+              "explanation": "Crucial em emergência."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "robo",
+                  "roubo"
+                ],
+                [
+                  "agresión",
+                  "agressão"
+                ],
+                [
+                  "ubicación",
+                  "localização"
+                ],
+                [
+                  "patrulla",
+                  "viatura"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Necesito ayuda ___ ahora.",
+              "answers": [
+                "urgente"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma frase explicando sua localização e o que aconteceu."
+            }
+          ]
+        },
+        {
+          "id": "m10l2",
+          "title": "Documentos perdidos y golpes",
+          "objective": "Relatar perda de documentos, celular ou carteira.",
+          "story": "Você perdeu a carteira e precisa registrar ocorrência e bloquear cartões.",
+          "grammar": "Explique sequência temporal: 'lo perdí', 'me lo robaron', 'fue esta mañana', 'ya he bloqueado la tarjeta'.",
+          "vocab": [
+            [
+              "cartera",
+              "carteira"
+            ],
+            [
+              "denuncia",
+              "boletim/denúncia"
+            ],
+            [
+              "bloquear",
+              "bloquear"
+            ],
+            [
+              "extraviar",
+              "perder/extraviar"
+            ],
+            [
+              "pasaporte",
+              "passaporte"
+            ]
+          ],
+          "phrases": [
+            "He extraviado la cartera.",
+            "Quiero poner una denuncia.",
+            "Ya he bloqueado las tarjetas.",
+            "También llevaba el pasaporte."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'quero fazer uma denúncia'?",
+              "options": [
+                "Quiero poner una denuncia.",
+                "Quiero poner una cuenta.",
+                "Quiero poner una receta.",
+                "Quiero poner una visita."
+              ],
+              "answer": 0,
+              "explanation": "Expressão correta para ocorrência."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'extraviar'?",
+              "options": [
+                "encontrar",
+                "extraviar/perder",
+                "comprar",
+                "validar"
+              ],
+              "answer": 1,
+              "explanation": "Verbo típico de documentos."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "cartera",
+                  "carteira"
+                ],
+                [
+                  "denuncia",
+                  "denúncia"
+                ],
+                [
+                  "bloquear",
+                  "bloquear"
+                ],
+                [
+                  "pasaporte",
+                  "passaporte"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Ya he ___ la tarjeta del banco.",
+              "answers": [
+                "bloqueado"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva um relato curto de perda de carteira."
+            }
+          ]
+        },
+        {
+          "id": "m10l3",
+          "title": "Crises de moradia ou trabalho",
+          "objective": "Pedir apoio em situações graves de despejo, abuso ou exploração.",
+          "story": "Seu empregador não pagou e você precisa explicar o problema com clareza.",
+          "grammar": "Vocabulário de proteção: 'no me han pagado', 'me están presionando', 'necesito asesoramiento', 'tengo pruebas'.",
+          "vocab": [
+            [
+              "asesoramiento",
+              "orientação"
+            ],
+            [
+              "desahucio",
+              "despejo"
+            ],
+            [
+              "presionar",
+              "pressionar"
+            ],
+            [
+              "pruebas",
+              "provas"
+            ],
+            [
+              "derechos",
+              "direitos"
+            ]
+          ],
+          "phrases": [
+            "No me han pagado este mes.",
+            "Necesito asesoramiento.",
+            "Creo que se están vulnerando mis derechos.",
+            "Tengo mensajes y pruebas."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'não me pagaram este mês'?",
+              "options": [
+                "No me han pagado este mes.",
+                "No me han llamado este mes.",
+                "No me han comprado este mes.",
+                "No me han vivido este mes."
+              ],
+              "answer": 0,
+              "explanation": "Frase objetiva para apoio trabalhista."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'derechos'?",
+              "options": [
+                "direitos",
+                "deveres",
+                "aluguéis",
+                "documentos"
+              ],
+              "answer": 0,
+              "explanation": "Termo essencial em proteção."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "asesoramiento",
+                  "orientação"
+                ],
+                [
+                  "desahucio",
+                  "despejo"
+                ],
+                [
+                  "pruebas",
+                  "provas"
+                ],
+                [
+                  "derechos",
+                  "direitos"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Creo que se están vulnerando mis ___.",
+              "answers": [
+                "derechos"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma mensagem pedindo orientação sobre um problema sério de trabalho ou moradia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "title": "Integração cultural na Espanha",
+      "icon": "🇪🇸",
+      "level": "B1",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Entender contexto, formalidade, humor e diferenças culturais.",
+      "lessons": [
+        {
+          "id": "m11l1",
+          "title": "Formal x informal",
+          "objective": "Saber quando usar tú, usted e registros adequados.",
+          "story": "Você fala com vizinho, RH, atendente público e gerente no mesmo dia.",
+          "grammar": "Na Espanha, 'tú' é frequente, mas 'usted' ainda cabe em contexto formal, idosos, atendimento sensível e documentos.",
+          "vocab": [
+            [
+              "trato",
+              "tratamento"
+            ],
+            [
+              "confianza",
+              "confiança"
+            ],
+            [
+              "cercano",
+              "próximo"
+            ],
+            [
+              "formal",
+              "formal"
+            ],
+            [
+              "informal",
+              "informal"
+            ]
+          ],
+          "phrases": [
+            "Prefiero tratarte de usted.",
+            "Si quieres, nos tutemos.",
+            "En el trabajo depende del contexto.",
+            "Suena más cercano decir 'tú'."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Qual frase sugere mudança para informal?",
+              "options": [
+                "Si quieres, nos tutemos.",
+                "Si quieres, nos pagamos.",
+                "Si quieres, nos salimos.",
+                "Si quieres, nos mudamos."
+              ],
+              "answer": 0,
+              "explanation": "Expressão elegante e útil."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Em contexto muito formal, costuma caber:",
+              "options": [
+                "usted",
+                "vos",
+                "tuya",
+                "ello"
+              ],
+              "answer": 0,
+              "explanation": "'Usted' mantém distância respeitosa."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "confianza",
+                  "confiança"
+                ],
+                [
+                  "cercano",
+                  "próximo"
+                ],
+                [
+                  "formal",
+                  "formal"
+                ],
+                [
+                  "informal",
+                  "informal"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Si quieres, nos ___.",
+              "answers": [
+                "tuteamos",
+                "tutemos"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva quando você usaria 'usted' na sua rotina."
+            }
+          ]
+        },
+        {
+          "id": "m11l2",
+          "title": "Costumbres, horários y vida social",
+          "objective": "Entender ritmos sociais, comida, horários e etiqueta.",
+          "story": "Você estranha horários de almoço, jantar e o jeito mais direto das conversas.",
+          "grammar": "Integração cultural não é só língua. Entender horários, indiretas e informalidade evita mal-entendidos sociais.",
+          "vocab": [
+            [
+              "sobremesa",
+              "conversa à mesa"
+            ],
+            [
+              "tapa",
+              "petisco"
+            ],
+            [
+              "siesta",
+              "sesta"
+            ],
+            [
+              "quedar",
+              "combinar"
+            ],
+            [
+              "puntualidad",
+              "pontualidade"
+            ]
+          ],
+          "phrases": [
+            "Aquí se cena más tarde.",
+            "Nos quedamos de sobremesa.",
+            "Vamos de tapas el viernes.",
+            "La puntualidad depende bastante del contexto."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "O que é 'sobremesa' na Espanha?",
+              "options": [
+                "sobremesa de comer",
+                "conversa depois da refeição",
+                "bolo de chocolate",
+                "mesa de jantar"
+              ],
+              "answer": 1,
+              "explanation": "É a conversa estendida à mesa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'aqui se janta mais tarde'?",
+              "options": [
+                "Aquí se cena más tarde.",
+                "Aquí se compra más tarde.",
+                "Aquí se habla más tarde.",
+                "Aquí se paga más tarde."
+              ],
+              "answer": 0,
+              "explanation": "Frase culturalmente relevante."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "tapa",
+                  "petisco"
+                ],
+                [
+                  "siesta",
+                  "sesta"
+                ],
+                [
+                  "puntualidad",
+                  "pontualidade"
+                ],
+                [
+                  "quedar",
+                  "combinar"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Vamos de ___ después del trabajo.",
+              "answers": [
+                "tapas"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 2 diferenças culturais que você espera encontrar."
+            }
+          ]
+        },
+        {
+          "id": "m11l3",
+          "title": "Falsos amigos y nuances",
+          "objective": "Evitar palavras parecidas com português que enganam.",
+          "story": "Você usa uma palavra parecida com português e a conversa vai para outro sentido.",
+          "grammar": "Falsos amigos podem criar ruído social, profissional e até burocrático. Memorize por contexto, não só por tradução.",
+          "vocab": [
+            [
+              "embarazada",
+              "grávida"
+            ],
+            [
+              "rato",
+              "momento"
+            ],
+            [
+              "oficina",
+              "escritório"
+            ],
+            [
+              "apellido",
+              "sobrenome"
+            ],
+            [
+              "constipado",
+              "resfriado"
+            ]
+          ],
+          "phrases": [
+            "Estoy constipado, no estreñido.",
+            "Mi apellido es Queiroz.",
+            "Trabajo en una oficina.",
+            "Vuelvo en un rato."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'embarazada'?",
+              "options": [
+                "envergonhada",
+                "grávida",
+                "embaraçada",
+                "assustada"
+              ],
+              "answer": 1,
+              "explanation": "Falso amigo clássico."
+            },
+            {
+              "type": "mcq",
+              "prompt": "'Oficina' em espanhol costuma ser:",
+              "options": [
+                "oficina mecânica",
+                "escritório",
+                "repartição pública apenas",
+                "loja"
+              ],
+              "answer": 1,
+              "explanation": "No uso comum, é escritório."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "apellido",
+                  "sobrenome"
+                ],
+                [
+                  "constipado",
+                  "resfriado"
+                ],
+                [
+                  "rato",
+                  "momento"
+                ],
+                [
+                  "embarazada",
+                  "grávida"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Mi ___ es Félix.",
+              "answers": [
+                "apellido"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva 3 falsos amigos que você quer memorizar e use-os em frases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "title": "Fluência prática avançada",
+      "icon": "🚀",
+      "level": "B1-B2",
+      "mode": [
+        "vida-real",
+        "trabalho"
+      ],
+      "description": "Ganhar soltura para narrar, opinar, negociar e resolver situações complexas.",
+      "lessons": [
+        {
+          "id": "m12l1",
+          "title": "Contar história, experiência e mudança de vida",
+          "objective": "Narrar trajetória, planos e adaptação com mais naturalidade.",
+          "story": "Você explica por que saiu do Brasil, como foi a mudança e o que busca na Espanha.",
+          "grammar": "No avançado, conectores fazem diferença: 'al principio', 'después', 'sin embargo', 'por eso', 'desde entonces'.",
+          "vocab": [
+            [
+              "trayectoria",
+              "trajetória"
+            ],
+            [
+              "cambio",
+              "mudança"
+            ],
+            [
+              "adaptación",
+              "adaptação"
+            ],
+            [
+              "objetivo",
+              "objetivo"
+            ],
+            [
+              "etapa",
+              "fase/etapa"
+            ]
+          ],
+          "phrases": [
+            "Al principio fue difícil adaptarme.",
+            "Después encontré una rutina mejor.",
+            "Mi objetivo es construir una vida estable.",
+            "Desde entonces he mejorado bastante."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Qual conector indica início de processo?",
+              "options": [
+                "al principio",
+                "sin embargo",
+                "por eso",
+                "además"
+              ],
+              "answer": 0,
+              "explanation": "Ótimo para narrativas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Como dizer 'desde então melhorei bastante'?",
+              "options": [
+                "Desde entonces he mejorado bastante.",
+                "Desde entonces soy bastante.",
+                "Desde entonces tengo bastante.",
+                "Desde entonces hablo bastante."
+              ],
+              "answer": 0,
+              "explanation": "Estrutura natural e expressiva."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "trayectoria",
+                  "trajetória"
+                ],
+                [
+                  "adaptación",
+                  "adaptação"
+                ],
+                [
+                  "objetivo",
+                  "objetivo"
+                ],
+                [
+                  "etapa",
+                  "etapa"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Al principio fue difícil ___ a la ciudad.",
+              "answers": [
+                "adaptarme",
+                "adaptarse"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Conte em 5 linhas sua história de mudança para a Espanha."
+            }
+          ]
+        },
+        {
+          "id": "m12l2",
+          "title": "Opinar, argumentar y discordar com elegância",
+          "objective": "Expressar opinião, concordar parcialmente e discordar com respeito.",
+          "story": "Você conversa sobre trabalho, aluguel e diferenças entre Brasil e Espanha.",
+          "grammar": "Estruturas-chave: 'creo que', 'desde mi punto de vista', 'entiendo tu punto, pero...', 'depende de'.",
+          "vocab": [
+            [
+              "opinión",
+              "opinião"
+            ],
+            [
+              "argumento",
+              "argumento"
+            ],
+            [
+              "matiz",
+              "nuance"
+            ],
+            [
+              "acuerdo",
+              "acordo"
+            ],
+            [
+              "desacuerdo",
+              "desacordo"
+            ]
+          ],
+          "phrases": [
+            "Desde mi punto de vista, depende.",
+            "Entiendo tu punto, pero no lo veo igual.",
+            "Estoy de acuerdo en parte.",
+            "Hay muchos matices."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como discordar sem soar agressivo?",
+              "options": [
+                "Entiendo tu punto, pero no lo veo igual.",
+                "Eso está totalmente mal.",
+                "No sabes nada.",
+                "No tienes razón y ya."
+              ],
+              "answer": 0,
+              "explanation": "Discordância elegante e madura."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Qual expressão suaviza opinião?",
+              "options": [
+                "Desde mi punto de vista",
+                "Sin más",
+                "Y punto",
+                "Claro que sí"
+              ],
+              "answer": 0,
+              "explanation": "Ajuda em conversas adultas."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "opinión",
+                  "opinião"
+                ],
+                [
+                  "matiz",
+                  "nuance"
+                ],
+                [
+                  "acuerdo",
+                  "acordo"
+                ],
+                [
+                  "desacuerdo",
+                  "desacordo"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Estoy de acuerdo en ___.",
+              "answers": [
+                "parte"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva sua opinião sobre morar fora, concordando parcialmente com um ponto contrário."
+            }
+          ]
+        },
+        {
+          "id": "m12l3",
+          "title": "Negociar, resolver y persuadir",
+          "objective": "Negociar preços, prazos e soluções com segurança.",
+          "story": "Você negocia aluguel, prazo de entrega e condição de trabalho.",
+          "grammar": "Negociação eficiente usa concessão e proposta: 'podríamos', '¿sería posible...?', 'si hacemos X, entonces Y'.",
+          "vocab": [
+            [
+              "plazo",
+              "prazo"
+            ],
+            [
+              "condición",
+              "condição"
+            ],
+            [
+              "propuesta",
+              "proposta"
+            ],
+            [
+              "descuento",
+              "desconto"
+            ],
+            [
+              "aclarar",
+              "esclarecer"
+            ]
+          ],
+          "phrases": [
+            "¿Sería posible ajustar el plazo?",
+            "Tengo una propuesta alternativa.",
+            "¿Podemos revisar esta condición?",
+            "Quisiera aclarar este punto antes de decidir."
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Como pedir ajuste de prazo com polidez?",
+              "options": [
+                "¿Sería posible ajustar el plazo?",
+                "Ajusta el plazo ahora.",
+                "Quiero el plazo ya.",
+                "Hazlo más rápido."
+              ],
+              "answer": 0,
+              "explanation": "Ótima fórmula de negociação."
+            },
+            {
+              "type": "mcq",
+              "prompt": "O que significa 'descuento'?",
+              "options": [
+                "desconto",
+                "deslocamento",
+                "descuido",
+                "despacho"
+              ],
+              "answer": 0,
+              "explanation": "Cognato de alta utilidade."
+            },
+            {
+              "type": "match",
+              "prompt": "Associe",
+              "pairs": [
+                [
+                  "plazo",
+                  "prazo"
+                ],
+                [
+                  "propuesta",
+                  "proposta"
+                ],
+                [
+                  "descuento",
+                  "desconto"
+                ],
+                [
+                  "aclarar",
+                  "esclarecer"
+                ]
+              ]
+            },
+            {
+              "type": "fill",
+              "prompt": "Complete: Quisiera ___ este punto antes de decidir.",
+              "answers": [
+                "aclarar"
+              ]
+            },
+            {
+              "type": "write",
+              "prompt": "Escreva uma negociação curta pedindo melhor condição de aluguel ou trabalho."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "falseFriends": [
+    {
+      "pt": "embarazada",
+      "meaning": "grávida",
+      "warning": "Não significa envergonhada."
+    },
+    {
+      "pt": "oficina",
+      "meaning": "escritório",
+      "warning": "Nem sempre é oficina mecânica."
+    },
+    {
+      "pt": "rato",
+      "meaning": "um momento",
+      "warning": "'En un rato' = daqui a pouco."
+    },
+    {
+      "pt": "constipado",
+      "meaning": "resfriado",
+      "warning": "Não é constipação intestinal."
+    },
+    {
+      "pt": "apellido",
+      "meaning": "sobrenome",
+      "warning": "Não é apelido."
+    },
+    {
+      "pt": "exquisito",
+      "meaning": "delicioso/refinado",
+      "warning": "Não é esquisito."
+    },
+    {
+      "pt": "vaso",
+      "meaning": "copo",
+      "warning": "Pode não ser vaso sanitário/vaso de planta."
+    },
+    {
+      "pt": "asistir",
+      "meaning": "comparecer",
+      "warning": "Não é ajudar."
+    },
+    {
+      "pt": "largo",
+      "meaning": "comprido",
+      "warning": "Não é largo."
+    },
+    {
+      "pt": "ropa",
+      "meaning": "roupa",
+      "warning": "Não é roupa de cama apenas."
+    }
+  ],
+  "phraseLibrary": [
+    {
+      "category": "sobrevivência",
+      "es": "¿Me puede repetir, por favor?",
+      "pt": "Pode repetir, por favor?"
+    },
+    {
+      "category": "moradia",
+      "es": "¿Los gastos están incluidos?",
+      "pt": "As despesas estão incluídas?"
+    },
+    {
+      "category": "documentação",
+      "es": "¿Qué documentación hace falta?",
+      "pt": "Que documentação falta?"
+    },
+    {
+      "category": "trabalho",
+      "es": "Tengo experiencia en logística y compras.",
+      "pt": "Tenho experiência em logística e compras."
+    },
+    {
+      "category": "transporte",
+      "es": "¿Dónde hago transbordo?",
+      "pt": "Onde faço baldeação?"
+    },
+    {
+      "category": "saúde",
+      "es": "Me duele la garganta desde ayer.",
+      "pt": "Estou com dor de garganta desde ontem."
+    },
+    {
+      "category": "consumo",
+      "es": "Me han cobrado de más.",
+      "pt": "Me cobraram a mais."
+    },
+    {
+      "category": "social",
+      "es": "Me encantaría, pero hoy no puedo.",
+      "pt": "Adoraria, mas hoje não posso."
+    },
+    {
+      "category": "emergência",
+      "es": "Necesito ayuda urgente.",
+      "pt": "Preciso de ajuda urgente."
+    },
+    {
+      "category": "negociação",
+      "es": "¿Sería posible ajustar el plazo?",
+      "pt": "Seria possível ajustar o prazo?"
+    }
+  ],
+  "simulators": [
+    {
+      "id": "sim1",
+      "title": "Chegada ao piso compartilhado",
+      "mode": "vida-real",
+      "description": "Você acabou de chegar ao apartamento e precisa se apresentar, combinar regras e perguntar sobre despesas.",
+      "steps": [
+        {
+          "speaker": "Propietaria",
+          "text": "Hola, ¿eres el nuevo inquilino?",
+          "choices": [
+            {
+              "text": "Sí, me llamo Thuan. Encantado.",
+              "score": 2,
+              "feedback": "Boa abertura: clara e natural."
+            },
+            {
+              "text": "Sí, soy alquiler.",
+              "score": 0,
+              "feedback": "Comunica mal a ideia."
+            },
+            {
+              "text": "Yo nuevo, tú casa.",
+              "score": 0,
+              "feedback": "Soa telegráfico demais."
+            }
+          ]
+        },
+        {
+          "speaker": "Propietaria",
+          "text": "Perfecto. ¿Tienes alguna duda sobre el piso?",
+          "choices": [
+            {
+              "text": "Sí, ¿los gastos están incluidos?",
+              "score": 2,
+              "feedback": "Pergunta excelente e prática."
+            },
+            {
+              "text": "Sí, ¿cuánto come la casa?",
+              "score": 0,
+              "feedback": "Estrutura inadequada."
+            },
+            {
+              "text": "No, gracias.",
+              "score": 1,
+              "feedback": "Aceitável, mas perde chance de esclarecer."
+            }
+          ]
+        },
+        {
+          "speaker": "Compañero de piso",
+          "text": "Aquí intentamos mantener la cocina limpia.",
+          "choices": [
+            {
+              "text": "Perfecto, prefiero mantenerla limpia también.",
+              "score": 2,
+              "feedback": "Mostra alinhamento e convivência."
+            },
+            {
+              "text": "No pasa nada, luego vemos.",
+              "score": 0,
+              "feedback": "Pode soar desleixado."
+            },
+            {
+              "text": "La cocina no importa.",
+              "score": 0,
+              "feedback": "Resposta ruim socialmente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim2",
+      "title": "Entrevista de trabalho",
+      "mode": "trabalho",
+      "description": "Você está numa entrevista e precisa falar de experiência, disponibilidade e motivo da mudança.",
+      "steps": [
+        {
+          "speaker": "Entrevistadora",
+          "text": "Cuéntame un poco sobre tu experiencia.",
+          "choices": [
+            {
+              "text": "Tengo experiencia en logística, compras y análisis de datos.",
+              "score": 2,
+              "feedback": "Resposta forte e objetiva."
+            },
+            {
+              "text": "Trabajo mucho.",
+              "score": 1,
+              "feedback": "Vaga demais."
+            },
+            {
+              "text": "Soy experiencia.",
+              "score": 0,
+              "feedback": "Estrutura incorreta."
+            }
+          ]
+        },
+        {
+          "speaker": "Entrevistadora",
+          "text": "¿Cuándo podrías incorporarte?",
+          "choices": [
+            {
+              "text": "Puedo incorporarme el lunes.",
+              "score": 2,
+              "feedback": "Direto e profissional."
+            },
+            {
+              "text": "Cuando quieras.",
+              "score": 1,
+              "feedback": "Serve, mas é menos preciso."
+            },
+            {
+              "text": "Yo incorporación lunes.",
+              "score": 0,
+              "feedback": "Estrutura ruim."
+            }
+          ]
+        },
+        {
+          "speaker": "Entrevistadora",
+          "text": "¿Por qué quieres trabajar aquí?",
+          "choices": [
+            {
+              "text": "Busco estabilidad, aprendizaje y crecer profesionalmente.",
+              "score": 2,
+              "feedback": "Ótima motivação."
+            },
+            {
+              "text": "Porque necesito dinero.",
+              "score": 1,
+              "feedback": "Honesto, porém fraco em entrevista."
+            },
+            {
+              "text": "Porque sí.",
+              "score": 0,
+              "feedback": "Resposta muito ruim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim3",
+      "title": "Farmácia com sintomas",
+      "mode": "vida-real",
+      "description": "Você precisa explicar sintomas e pedir recomendação.",
+      "steps": [
+        {
+          "speaker": "Farmacéutica",
+          "text": "¿Qué te pasa?",
+          "choices": [
+            {
+              "text": "Me duele la garganta y tengo fiebre.",
+              "score": 2,
+              "feedback": "Descrição objetiva do sintoma."
+            },
+            {
+              "text": "Estoy malo.",
+              "score": 1,
+              "feedback": "Entendem, mas falta precisão."
+            },
+            {
+              "text": "No sé, cuerpo malo.",
+              "score": 0,
+              "feedback": "Pouco útil."
+            }
+          ]
+        },
+        {
+          "speaker": "Farmacéutica",
+          "text": "¿Desde cuándo?",
+          "choices": [
+            {
+              "text": "Desde ayer por la noche.",
+              "score": 2,
+              "feedback": "Tempo claro."
+            },
+            {
+              "text": "Mucho tiempo.",
+              "score": 1,
+              "feedback": "Pouco específico."
+            },
+            {
+              "text": "No recuerdo nada.",
+              "score": 0,
+              "feedback": "Ajuda pouco o atendimento."
+            }
+          ]
+        },
+        {
+          "speaker": "Farmacéutica",
+          "text": "¿Has tomado algo?",
+          "choices": [
+            {
+              "text": "Sí, he tomado paracetamol.",
+              "score": 2,
+              "feedback": "Informação relevante."
+            },
+            {
+              "text": "Sí, una cosa.",
+              "score": 0,
+              "feedback": "Impreciso."
+            },
+            {
+              "text": "No, nunca remedio.",
+              "score": 0,
+              "feedback": "Estrutura ruim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim4",
+      "title": "Perda de carteira",
+      "mode": "vida-real",
+      "description": "Você precisa registrar perda de carteira e bloquear cartões.",
+      "steps": [
+        {
+          "speaker": "Policía",
+          "text": "¿Qué ha ocurrido?",
+          "choices": [
+            {
+              "text": "He extraviado la cartera esta mañana.",
+              "score": 2,
+              "feedback": "Relato claro e temporal."
+            },
+            {
+              "text": "No tengo cosas.",
+              "score": 1,
+              "feedback": "Entendem pouco."
+            },
+            {
+              "text": "Perdido todo.",
+              "score": 0,
+              "feedback": "Muito vago."
+            }
+          ]
+        },
+        {
+          "speaker": "Policía",
+          "text": "¿Qué llevaba dentro?",
+          "choices": [
+            {
+              "text": "Tarjetas, DNI y algo de efectivo.",
+              "score": 2,
+              "feedback": "Boa enumeração."
+            },
+            {
+              "text": "Cosas importantes.",
+              "score": 1,
+              "feedback": "Pouco específico."
+            },
+            {
+              "text": "No sé.",
+              "score": 0,
+              "feedback": "Ajuda pouco a ocorrência."
+            }
+          ]
+        },
+        {
+          "speaker": "Policía",
+          "text": "¿Has bloqueado las tarjetas?",
+          "choices": [
+            {
+              "text": "Sí, ya las he bloqueado.",
+              "score": 2,
+              "feedback": "Mostra ação rápida e linguagem correta."
+            },
+            {
+              "text": "Todavía no, voy a hacerlo ahora.",
+              "score": 1,
+              "feedback": "Ok, mas ideal é já ter feito."
+            },
+            {
+              "text": "No entiendo.",
+              "score": 0,
+              "feedback": "Perde informação importante."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnosticQuestions": [
+    {
+      "prompt": "Escolha a melhor tradução para 'Preciso de ajuda'.",
+      "options": [
+        "Necesito ayuda",
+        "Tengo ayuda",
+        "Quiero ayuda",
+        "Soy ayuda"
+      ],
+      "answer": 0,
+      "level": "A1"
+    },
+    {
+      "prompt": "'¿Dónde está la estación?' significa:",
+      "options": [
+        "Que horas são?",
+        "Onde fica a estação?",
+        "Quanto custa a estação?",
+        "Quando sai a estação?"
+      ],
+      "answer": 1,
+      "level": "A1"
+    },
+    {
+      "prompt": "Qual frase soa melhor numa entrevista?",
+      "options": [
+        "Tengo experiencia en compras",
+        "Soy compras",
+        "Tengo compra experiencia",
+        "Experiencia estoy"
+      ],
+      "answer": 0,
+      "level": "A2"
+    },
+    {
+      "prompt": "'Me han cobrado de más' quer dizer:",
+      "options": [
+        "Fui atendido rápido",
+        "Me cobraram a mais",
+        "Me chamaram depois",
+        "Me deram desconto"
+      ],
+      "answer": 1,
+      "level": "A2"
+    },
+    {
+      "prompt": "Escolha a discordância elegante:",
+      "options": [
+        "Eso está mal y ya",
+        "Entiendo tu punto, pero no lo veo igual",
+        "No sabes nada",
+        "Imposible"
+      ],
+      "answer": 1,
+      "level": "B1"
+    },
+    {
+      "prompt": "Em burocracia, 'resguardo' costuma ser:",
+      "options": [
+        "protocolo/comprovante",
+        "prazo",
+        "senha",
+        "fila"
+      ],
+      "answer": 0,
+      "level": "B1"
+    },
+    {
+      "prompt": "'Si quieres, nos tutemos' sugere:",
+      "options": [
+        "ir embora",
+        "usar tratamento informal",
+        "fazer um contrato",
+        "fechar conta"
+      ],
+      "answer": 1,
+      "level": "B1"
+    },
+    {
+      "prompt": "Qual frase é melhor para negociar prazo?",
+      "options": [
+        "Hazlo más rápido",
+        "¿Sería posible ajustar el plazo?",
+        "No acepto",
+        "Esto está mal"
+      ],
+      "answer": 1,
+      "level": "B2"
+    }
+  ],
+  "courseBlueprint": [
+    {
+      "id": "m1",
+      "title": "Fundamentos de supervivencia",
+      "level": "A1",
+      "description": "Base sólida para começar a falar desde o primeiro dia.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Apresentar-se e quebrar o gelo",
+          "objective": "Saber dizer quem você é, de onde vem e iniciar conversas simples."
+        },
+        {
+          "id": "m1l2",
+          "title": "Números, horários e dados pessoais",
+          "objective": "Dar telefone, entender preços, horários e informações básicas."
+        },
+        {
+          "id": "m1l3",
+          "title": "Perguntas essenciais do dia a dia",
+          "objective": "Fazer perguntas simples para sobreviver no início."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Comunicação essencial",
+      "level": "A1-A2",
+      "description": "Interagir, entender instruções e trocar mensagens.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Pedidos, favores e instruções",
+          "objective": "Pedir ajuda, favores e entender comandos simples."
+        },
+        {
+          "id": "m2l2",
+          "title": "Mensagens, ligações e áudio",
+          "objective": "Mandar mensagens simples, entender chamadas e organizar combinações."
+        },
+        {
+          "id": "m2l3",
+          "title": "Rotina, tempo e compromissos",
+          "objective": "Falar sobre rotina, disponibilidade e agenda."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Moradia e convivência",
+      "level": "A2",
+      "description": "Encontrar casa, negociar e viver com tranquilidade.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Buscar piso o habitación",
+          "objective": "Entender anúncios e fazer perguntas de aluguel."
+        },
+        {
+          "id": "m3l2",
+          "title": "Falar com proprietário e colegas de piso",
+          "objective": "Negociar regras, visitas e convivência."
+        },
+        {
+          "id": "m3l3",
+          "title": "Problemas em casa e manutenção",
+          "objective": "Relatar defeitos e cobrar solução."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Documentação e burocracia",
+      "level": "A2-B1",
+      "description": "Navegar NIE, empadronamiento, bancos e formulários sem travar.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "NIE, empadronamiento y cita previa",
+          "objective": "Lidar com os trâmites mais críticos da chegada."
+        },
+        {
+          "id": "m4l2",
+          "title": "Banco, conta e comprovantes",
+          "objective": "Abrir conta, entender cobranças e falar com o banco."
+        },
+        {
+          "id": "m4l3",
+          "title": "Formulários e atendimento online",
+          "objective": "Preencher campos, entender instruções e evitar erros."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Trabalho e carreira",
+      "level": "A2-B1",
+      "description": "Entrar no mercado, passar em entrevista e se integrar no trabalho.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Currículum, vagas e candidatura",
+          "objective": "Entender vagas e falar do seu perfil profissional."
+        },
+        {
+          "id": "m5l2",
+          "title": "Entrevista e condições de trabalho",
+          "objective": "Responder perguntas de entrevista e negociar condições básicas."
+        },
+        {
+          "id": "m5l3",
+          "title": "Rotina profissional e comunicação interna",
+          "objective": "Falar com chefe, colegas, fornecedores e clientes."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Transporte e deslocamento",
+      "level": "A2",
+      "description": "Circular pela cidade com autonomia e resolver imprevistos.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "Metro, bus y cercanías",
+          "objective": "Comprar bilhetes, entender linhas e perguntar trajetos."
+        },
+        {
+          "id": "m6l2",
+          "title": "Direções e localização",
+          "objective": "Pedir e entender direções na rua."
+        },
+        {
+          "id": "m6l3",
+          "title": "Imprevistos, multas y retrasos",
+          "objective": "Resolver perda do ônibus, atraso e situações com fiscalização."
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "title": "Saúde e bem-estar",
+      "level": "A2-B1",
+      "description": "Falar de sintomas, buscar ajuda e entender orientações médicas.",
+      "lessons": [
+        {
+          "id": "m7l1",
+          "title": "Farmacia y síntomas básicos",
+          "objective": "Descrever sintomas simples e comprar remédios."
+        },
+        {
+          "id": "m7l2",
+          "title": "Centro de salud y consulta",
+          "objective": "Entender marcação, sintomas e orientações médicas."
+        },
+        {
+          "id": "m7l3",
+          "title": "Urgencias y seguridad",
+          "objective": "Falar com urgência em situações médicas mais sérias."
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "title": "Mercado, consumo e dinheiro",
+      "level": "A2",
+      "description": "Comprar bem, entender preços e evitar confusão no consumo diário.",
+      "lessons": [
+        {
+          "id": "m8l1",
+          "title": "Supermercado, padaria e produtos",
+          "objective": "Pedir itens, quantidades e entender ofertas."
+        },
+        {
+          "id": "m8l2",
+          "title": "Preços, devoluções e reclamações",
+          "objective": "Resolver trocas, defeitos e divergência de preço."
+        },
+        {
+          "id": "m8l3",
+          "title": "Contas, pagamentos y gastos",
+          "objective": "Entender contas mensais, recibos e formas de pagamento."
+        }
+      ]
+    },
+    {
+      "id": "m9",
+      "title": "Relações sociais e integração",
+      "level": "A2-B1",
+      "description": "Construir relações, navegar informalidade e participar da vida social.",
+      "lessons": [
+        {
+          "id": "m9l1",
+          "title": "Convidar, aceitar e recusar",
+          "objective": "Combinar saídas, aceitar convites e recusar sem soar rude."
+        },
+        {
+          "id": "m9l2",
+          "title": "Conversas leves e amizade",
+          "objective": "Manter small talk e criar conexão sem travar."
+        },
+        {
+          "id": "m9l3",
+          "title": "Conflitos, limites y assertividade",
+          "objective": "Colocar limites com educação e resolver pequenos atritos."
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "title": "Emergências e segurança",
+      "level": "B1",
+      "description": "Responder bem sob pressão em situações críticas.",
+      "lessons": [
+        {
+          "id": "m10l1",
+          "title": "112, polícia y ajuda imediata",
+          "objective": "Pedir ajuda rápida e explicar o problema principal."
+        },
+        {
+          "id": "m10l2",
+          "title": "Documentos perdidos y golpes",
+          "objective": "Relatar perda de documentos, celular ou carteira."
+        },
+        {
+          "id": "m10l3",
+          "title": "Crises de moradia ou trabalho",
+          "objective": "Pedir apoio em situações graves de despejo, abuso ou exploração."
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "title": "Integração cultural na Espanha",
+      "level": "B1",
+      "description": "Entender contexto, formalidade, humor e diferenças culturais.",
+      "lessons": [
+        {
+          "id": "m11l1",
+          "title": "Formal x informal",
+          "objective": "Saber quando usar tú, usted e registros adequados."
+        },
+        {
+          "id": "m11l2",
+          "title": "Costumbres, horários y vida social",
+          "objective": "Entender ritmos sociais, comida, horários e etiqueta."
+        },
+        {
+          "id": "m11l3",
+          "title": "Falsos amigos y nuances",
+          "objective": "Evitar palavras parecidas com português que enganam."
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "title": "Fluência prática avançada",
+      "level": "B1-B2",
+      "description": "Ganhar soltura para narrar, opinar, negociar e resolver situações complexas.",
+      "lessons": [
+        {
+          "id": "m12l1",
+          "title": "Contar história, experiência e mudança de vida",
+          "objective": "Narrar trajetória, planos e adaptação com mais naturalidade."
+        },
+        {
+          "id": "m12l2",
+          "title": "Opinar, argumentar y discordar com elegância",
+          "objective": "Expressar opinião, concordar parcialmente e discordar com respeito."
+        },
+        {
+          "id": "m12l3",
+          "title": "Negociar, resolver y persuadir",
+          "objective": "Negociar preços, prazos e soluções com segurança."
+        }
+      ]
+    }
+  ]
+}

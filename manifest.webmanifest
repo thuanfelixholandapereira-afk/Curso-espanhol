@@ -1,0 +1,85 @@
+{
+  "name": "Camino España",
+  "short_name": "Camino",
+  "description": "App de espanhol para brasileiros que vão viver, trabalhar e se integrar na Espanha.",
+  "lang": "pt-BR",
+  "start_url": "./index.html#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "orientation": "portrait",
+  "categories": [
+    "education",
+    "productivity",
+    "reference"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Revisão diária",
+      "short_name": "Revisão",
+      "description": "Abra a fila de revisão inteligente.",
+      "url": "./index.html#review",
+      "icons": [
+        {
+          "src": "./assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Modo vida real",
+      "short_name": "Vida real",
+      "description": "Abra a trilha focada em sobrevivência e integração.",
+      "url": "./index.html#map",
+      "icons": [
+        {
+          "src": "./assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Simulador",
+      "short_name": "Simulador",
+      "description": "Treine cenários reais em espanhol.",
+      "url": "./index.html#simulator",
+      "icons": [
+        {
+          "src": "./assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshot-home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tela inicial com progresso, missão e modos"
+    },
+    {
+      "src": "./assets/screenshot-lesson.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Lição com vocabulário, frases e exercícios"
+    }
+  ]
+}
