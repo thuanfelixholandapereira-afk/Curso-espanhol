@@ -1,6 +1,6 @@
 # Camino España
 
-PWA de espanhol para brasileiros que querem morar, trabalhar e se integrar na Espanha.
+PWA de espanhol para brasileiros que querem morar, trabalhar e se integrar na Espanha.. 
 
 ## O que tem neste projeto
 
